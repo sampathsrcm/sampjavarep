@@ -47,6 +47,22 @@ public class TestGreeter {
 		}
 		
 	}
+		
+		@Test
+		public void greetershouldincludetheonebeinggreeted2() {
+			String someone = "World sure let me thank you and see you very soon";
+			
+			System.out.println("someone" + someone);
+			if (greeter == null)
+				
+			{System.out.println("greeter is null"); }
+			else
+			{String s = greeter.greet(someone);
+			assertEquals(s.length(), someone.length());
+			
+			}
+		
+	}
 	
 	
 
